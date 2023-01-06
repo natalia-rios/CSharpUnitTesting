@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentals", "Fundamentals\Fundamentals.csproj", "{DB9B98E5-ED70-4E12-8A5F-B8D371C5FF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNInja.UnitTests", "TestNInja.UnitTests\TestNInja.UnitTests.csproj", "{57312FA4-104F-4084-AA04-69BED1B9C69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9B98E5-ED70-4E12-8A5F-B8D371C5FF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9B98E5-ED70-4E12-8A5F-B8D371C5FF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9B98E5-ED70-4E12-8A5F-B8D371C5FF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9B98E5-ED70-4E12-8A5F-B8D371C5FF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57312FA4-104F-4084-AA04-69BED1B9C69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57312FA4-104F-4084-AA04-69BED1B9C69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57312FA4-104F-4084-AA04-69BED1B9C69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57312FA4-104F-4084-AA04-69BED1B9C69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
