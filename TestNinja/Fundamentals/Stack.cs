@@ -1,12 +1,8 @@
 ﻿namespace TestNinja.Fundamentals;
 
-using System;
-using System.Collections.Generic;
-
-
 public class Stack<T>
 {
-    private readonly List<T> _list = new List<T>();
+    private readonly List<T> _list = new();
 
     public int Count => _list.Count;
 
@@ -14,7 +10,7 @@ public class Stack<T>
     {
         if (obj == null)
             throw new ArgumentNullException();
-        
+
         _list.Add(obj);
     }
 
@@ -26,7 +22,7 @@ public class Stack<T>
         var result = _list[_list.Count - 1];
         _list.RemoveAt(_list.Count - 1);
 
-        return result; 
+        return result;
     }
 
 

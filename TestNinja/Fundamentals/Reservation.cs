@@ -1,18 +1,16 @@
-﻿namespace TestNinja.Fundamentals
+﻿namespace TestNinja.Fundamentals;
+
+public class Reservation
 {
-    public class Reservation
-    {
-        public User MadeBy { get; set; }
+    public User MadeBy { get; set; }
 
-        public bool CanBeCancelledBy(User user)
-        {
-            return (user.IsAdmin || MadeBy == user);
-        }
-        
-    }
-
-    public class User
+    public bool CanBeCancelledBy(User user)
     {
-        public bool IsAdmin { get; set; }
+        return user.IsAdmin || MadeBy == user;
     }
+}
+
+public class User
+{
+    public bool IsAdmin { get; set; }
 }

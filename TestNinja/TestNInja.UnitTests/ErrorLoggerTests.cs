@@ -7,14 +7,14 @@ namespace TestNInja.UnitTests;
 [TestFixture]
 public class ErrorLoggerTests
 {
-    private ErrorLogger _logger;
-    
     [SetUp]
     public void SetUp()
     {
         _logger = new ErrorLogger();
     }
-    
+
+    private ErrorLogger _logger;
+
     [Test]
     public void Log_WhenCalled_SetTheLastErrorProperty()
     {
@@ -36,9 +36,9 @@ public class ErrorLoggerTests
     {
         var id = Guid.Empty;
         _logger.ErrorLogged += (sender, args) => { id = args; };
-        
+
         _logger.Log("a");
-        
+
         Assert.That(id, Is.Not.EqualTo(Guid.Empty));
     }
-}                 
+}

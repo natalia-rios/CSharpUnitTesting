@@ -4,9 +4,9 @@ using Assert = NUnit.Framework.Assert;
 namespace TestNInja.UnitTests;
 
 public class StackTests
-{ 
+{
     private TestNinja.Fundamentals.Stack<string> _stack;
-    
+
     [SetUp]
     public void SetUp()
     {
@@ -23,7 +23,7 @@ public class StackTests
     public void Push_ValidArg_AddTheObjectToTheStack()
     {
         _stack.Push("a");
-        
+
         Assert.That(_stack.Count, Is.EqualTo(1));
     }
 
@@ -37,7 +37,7 @@ public class StackTests
     public void Push_ValidArg_AddObjectToTheStack()
     {
         _stack.Push("a");
-        
+
         Assert.That(_stack.Count, Is.EqualTo(1));
     }
 
@@ -45,7 +45,7 @@ public class StackTests
     public void Pop_EmptyStack_ThrowInvalidOperationException()
     {
         var _stack = new TestNinja.Fundamentals.Stack<string>();
-        
+
         Assert.That(() => _stack.Pop(), Throws.InvalidOperationException);
     }
 
@@ -57,10 +57,10 @@ public class StackTests
         _stack.Push("c");
 
         var result = _stack.Pop();
-        
+
         Assert.That(result, Is.EqualTo("c"));
     }
-    
+
     [Test]
     public void Pop_StackWithAFewObjects_RemoveObjectOnTheTop()
     {
@@ -69,7 +69,7 @@ public class StackTests
         _stack.Push("c");
 
         var result = _stack.Pop();
-        
+
         Assert.That(_stack.Count, Is.EqualTo(2));
     }
 
@@ -87,7 +87,7 @@ public class StackTests
         _stack.Push("c");
 
         var result = _stack.Peek();
-        
+
         Assert.That(result, Is.EqualTo("c"));
     }
 
@@ -99,8 +99,7 @@ public class StackTests
         _stack.Push("c");
 
         _stack.Peek();
-        
+
         Assert.That(_stack.Count, Is.EqualTo(3));
     }
-    
 }

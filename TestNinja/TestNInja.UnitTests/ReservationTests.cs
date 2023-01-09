@@ -19,26 +19,26 @@ public class ReservationTests
         Assert.IsTrue(result);
         // NUnit
         Assert.That(result, Is.True);
-        Assert.That(result == true);
+        Assert.That(result);
     }
-    
+
     [TestMethod]
     public void CanBeCancelledBy_SameUserCancelling_ReturnsTrue()
     {
-        var user = new User {IsAdmin = false};
-        var reservation = new Reservation {MadeBy = user};
+        var user = new User { IsAdmin = false };
+        var reservation = new Reservation { MadeBy = user };
 
         var result = reservation.CanBeCancelledBy(user);
-        
+
         Assert.IsTrue(result);
     }
 
     [TestMethod]
     public void CanBeCancelledBy_AnotherUserCancelling_ReturnsFalse()
     {
-        var reservation = new Reservation {MadeBy = new User()};
+        var reservation = new Reservation { MadeBy = new User() };
         var result = reservation.CanBeCancelledBy(new User());
-        
+
         Assert.IsFalse(result);
     }
 }
