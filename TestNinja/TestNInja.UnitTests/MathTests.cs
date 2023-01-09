@@ -35,4 +35,27 @@ public class MathTests
         
         Assert.That(result, Is.EqualTo(expectedResult));
     }
+
+    [Test]
+    public void GetOddNumbers_LimitIsGreaterThanZero_ReturnOddNumbersUpToLimit()
+    {
+        var result = _math.GetOddNumbers(5);
+        
+        //Assert.That(result, Is.Not.Empty);
+        //Assert.That(result.Count, Is.EqualTo(3));
+
+        Assert.That(result, Is.EquivalentTo(new [] {1, 3, 5}));
+        
+        //Assert.That(result, Is.Ordered);
+        //Assert.That(result, Is.Unique);
+    }
+
+    [Test]
+    [TestCase(0)]
+    [TestCase(-3)]
+    public void GetOddNumbers_LimitIsLessThanOrEqualToZero_ReturnEmptyList(int limit)
+    {
+        var result = _math.GetOddNumbers(limit);
+        Assert.That(result, Is.Empty);
+    }
 }
