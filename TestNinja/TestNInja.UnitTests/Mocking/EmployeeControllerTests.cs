@@ -9,24 +9,29 @@ namespace TestNInja.UnitTests.Mocking;
 [TestFixture]
 public class EmployeeControllerTests
 {
+    private EmployeeController _controller;
+    private Mock<IEmployeeStorage> _storage;
+
+    [SetUp]
+    public void SetUp()
+    {
+        _storage = new Mock<IEmployeeStorage>();
+        _controller = new EmployeeController(_storage.Object);
+    }
+
+
     [Test]
     public void DeleteEmployee_WhenCalled_DeleteTheEmployeeFromDb()
     {
-        var storage = new Mock<IEmployeeStorage>();
-        var controller = new EmployeeController(storage.Object);
-
-        controller.DeleteEmployee(1);
+        _controller.DeleteEmployee(1);
         
-        storage.Verify(s => s.DeleteEmployee(1));
+        _storage.Verify(s => s.DeleteEmployee(1));
     }
     
     [Test]
     public void DeleteEmployee_WhenCalled_ReturnRedirectResultObject()
     {
-        var storage = new Mock<IEmployeeStorage>();
-        var controller = new EmployeeController(storage.Object);
-
-        var result = controller.DeleteEmployee(1);
+        var result = _controller.DeleteEmployee(1);
         
         Assert.IsInstanceOf<ActionResult>(result);
     }
