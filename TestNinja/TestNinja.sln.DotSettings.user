@@ -1,13 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=18ed08de_002D2e1f_002D4510_002Db2f0_002D7560cb26d930/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AllVideosAreProcessed_ReturnString&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.EmployeeControllerTests.DeleteEmployee_WhenCalled_ReturnRedirectResultObject&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7ccfccf8_002D9363_002D4219_002D90d2_002D9f285f1c5298/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from BookingHelperTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFile&gt;57312FA4-104F-4084-AA04-69BED1B9C69E/d:Mocking/f:BookingHelperTests.cs&lt;/ProjectFile&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	
-	
-	
-	
 	</wpf:ResourceDictionary>
