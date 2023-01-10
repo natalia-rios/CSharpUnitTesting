@@ -1,35 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=18ed08de_002D2e1f_002D4510_002Db2f0_002D7560cb26d930/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=18ed08de_002D2e1f_002D4510_002Db2f0_002D7560cb26d930/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AllVideosAreProcessed_ReturnString&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.EmployeeControllerTests.DeleteEmployee_WhenCalled_ReturnRedirectResultObject&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=52ef82db_002Df58d_002D46ed_002Dadbc_002D5369ec1a67b7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.InstallerHelperTests.DownloadInstaller_DownloadFails_ReturnFalse&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.InstallerHelperTests.DownloadInstaller_DownloadCompletes_ReturnTrue&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6cceec9c_002D4273_002D4d0b_002Da152_002D8387ae19bf0a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetUnprocessedVideosAsCsv_WhenCalled_ReturnVideoIds" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=88200837_002D6d94_002D45bc_002Dad40_002Da1dedca9ef83/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PlaceOrder_WhenCalled_StoreTheOrder" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\w508191\Documents\CSharpUnitTesting\TestNinja\TestNInja.UnitTests" Presentation="&amp;lt;TestNInja.UnitTests&amp;gt;" /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d8912617_002Da615_002D4c0d_002Db53e_002D12cedf86f6a5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.VideoServiceTests.GetUnprocessedVideosAsCsv_AFewUnprocessedVideos_ReturnVideoIds&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e54f1b06_002Dae10_002D4be8_002D93a7_002D0c28dca63cda/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from VideoServiceTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;ProjectFile&gt;57312FA4-104F-4084-AA04-69BED1B9C69E/d:Mocking/f:VideoServiceTests.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;NUnit3x::57312FA4-104F-4084-AA04-69BED1B9C69E::net7.0::TestNInja.UnitTests.Mocking.OrderServiceTests&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-  &lt;/Or&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+	
+	
+	
+	
+	</wpf:ResourceDictionary>
