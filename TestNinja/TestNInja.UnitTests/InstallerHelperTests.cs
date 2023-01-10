@@ -27,7 +27,7 @@ public class InstallerHelperTests
 
         Assert.That(result, Is.False);
     }
-    
+
     [Test]
     public void DownloadInstaller_DownloadCompletes_ReturnTrue()
     {

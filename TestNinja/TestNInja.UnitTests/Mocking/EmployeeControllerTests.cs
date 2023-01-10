@@ -1,7 +1,6 @@
 ﻿using Moq;
 using NUnit.Framework;
 using TestNinja.Mocking;
-using ActionResult = TestNinja.Mocking.ActionResult;
 using Assert = NUnit.Framework.Assert;
 
 namespace TestNInja.UnitTests.Mocking;
@@ -9,9 +8,6 @@ namespace TestNInja.UnitTests.Mocking;
 [TestFixture]
 public class EmployeeControllerTests
 {
-    private EmployeeController _controller;
-    private Mock<IEmployeeStorage> _storage;
-
     [SetUp]
     public void SetUp()
     {
@@ -19,20 +15,23 @@ public class EmployeeControllerTests
         _controller = new EmployeeController(_storage.Object);
     }
 
+    private EmployeeController _controller;
+    private Mock<IEmployeeStorage> _storage;
+
 
     [Test]
     public void DeleteEmployee_WhenCalled_DeleteTheEmployeeFromDb()
     {
         _controller.DeleteEmployee(1);
-        
+
         _storage.Verify(s => s.DeleteEmployee(1));
     }
-    
+
     [Test]
     public void DeleteEmployee_WhenCalled_ReturnRedirectResultObject()
     {
         var result = _controller.DeleteEmployee(1);
-        
+
         Assert.IsInstanceOf<ActionResult>(result);
     }
 }
