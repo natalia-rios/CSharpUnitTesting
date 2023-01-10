@@ -56,7 +56,7 @@ public class BookingHelperOverlappingBookExistsTests
         {
             Id = 1,
             ArrivalDate = Before(_existingBooking.ArrivalDate, 2),
-            DepartureDate = Before(_existingBooking.ArrivalDate, 1)
+            DepartureDate = Before(_existingBooking.ArrivalDate)
         }, _repository.Object);
 
         Assert.IsEmpty(result);
